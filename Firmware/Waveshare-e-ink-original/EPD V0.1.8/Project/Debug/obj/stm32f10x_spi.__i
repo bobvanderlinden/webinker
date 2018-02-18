@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc
+-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"
+-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Includes\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\debug\obj\stm32f10x_spi.o --omf_browse .\debug\obj\stm32f10x_spi.crf --depend .\debug\obj\stm32f10x_spi.d "..\Lib\src\stm32f10x_spi.c"
