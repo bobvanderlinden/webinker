@@ -1,0 +1,541 @@
+Dependencies for Project 'epd', Target 'mdk': (DO NOT MODIFY !)
+F (..\Lib\Start\startup_stm32f10x_hd.s)(0x54F69C9A)(--cpu Cortex-M3 -g --apcs=interwork -I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"-o .\debug\obj\startup_stm32f10x_hd.o --depend .\debug\obj\startup_stm32f10x_hd.d)
+F (..\Lib\src\misc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\misc.o --omf_browse .\debug\obj\misc.crf --depend .\debug\obj\misc.d)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_adc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_adc.o --omf_browse .\debug\obj\stm32f10x_adc.crf --depend .\debug\obj\stm32f10x_adc.d)
+I (..\Lib\inc\stm32f10x_adc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_bkp.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_bkp.o --omf_browse .\debug\obj\stm32f10x_bkp.crf --depend .\debug\obj\stm32f10x_bkp.d)
+I (..\Lib\inc\stm32f10x_bkp.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_can.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_can.o --omf_browse .\debug\obj\stm32f10x_can.crf --depend .\debug\obj\stm32f10x_can.d)
+I (..\Lib\inc\stm32f10x_can.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_crc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_crc.o --omf_browse .\debug\obj\stm32f10x_crc.crf --depend .\debug\obj\stm32f10x_crc.d)
+I (..\Lib\inc\stm32f10x_crc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_dac.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_dac.o --omf_browse .\debug\obj\stm32f10x_dac.crf --depend .\debug\obj\stm32f10x_dac.d)
+I (..\Lib\inc\stm32f10x_dac.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_dbgmcu.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_dbgmcu.o --omf_browse .\debug\obj\stm32f10x_dbgmcu.crf --depend .\debug\obj\stm32f10x_dbgmcu.d)
+I (..\Lib\inc\stm32f10x_dbgmcu.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_dma.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_dma.o --omf_browse .\debug\obj\stm32f10x_dma.crf --depend .\debug\obj\stm32f10x_dma.d)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_exti.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_exti.o --omf_browse .\debug\obj\stm32f10x_exti.crf --depend .\debug\obj\stm32f10x_exti.d)
+I (..\Lib\inc\stm32f10x_exti.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_flash.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_flash.o --omf_browse .\debug\obj\stm32f10x_flash.crf --depend .\debug\obj\stm32f10x_flash.d)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_fsmc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_fsmc.o --omf_browse .\debug\obj\stm32f10x_fsmc.crf --depend .\debug\obj\stm32f10x_fsmc.d)
+I (..\Lib\inc\stm32f10x_fsmc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_gpio.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_gpio.o --omf_browse .\debug\obj\stm32f10x_gpio.crf --depend .\debug\obj\stm32f10x_gpio.d)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_i2c.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_i2c.o --omf_browse .\debug\obj\stm32f10x_i2c.crf --depend .\debug\obj\stm32f10x_i2c.d)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_iwdg.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_iwdg.o --omf_browse .\debug\obj\stm32f10x_iwdg.crf --depend .\debug\obj\stm32f10x_iwdg.d)
+I (..\Lib\inc\stm32f10x_iwdg.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_pwr.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_pwr.o --omf_browse .\debug\obj\stm32f10x_pwr.crf --depend .\debug\obj\stm32f10x_pwr.d)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_rcc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_rcc.o --omf_browse .\debug\obj\stm32f10x_rcc.crf --depend .\debug\obj\stm32f10x_rcc.d)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_rtc.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_rtc.o --omf_browse .\debug\obj\stm32f10x_rtc.crf --depend .\debug\obj\stm32f10x_rtc.d)
+I (..\Lib\inc\stm32f10x_rtc.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_sdio.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_sdio.o --omf_browse .\debug\obj\stm32f10x_sdio.crf --depend .\debug\obj\stm32f10x_sdio.d)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_spi.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_spi.o --omf_browse .\debug\obj\stm32f10x_spi.crf --depend .\debug\obj\stm32f10x_spi.d)
+I (..\Lib\inc\stm32f10x_spi.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_tim.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_tim.o --omf_browse .\debug\obj\stm32f10x_tim.crf --depend .\debug\obj\stm32f10x_tim.d)
+I (..\Lib\inc\stm32f10x_tim.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_usart.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_usart.o --omf_browse .\debug\obj\stm32f10x_usart.crf --depend .\debug\obj\stm32f10x_usart.d)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\src\stm32f10x_wwdg.c)(0x49D9694A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_wwdg.o --omf_browse .\debug\obj\stm32f10x_wwdg.crf --depend .\debug\obj\stm32f10x_wwdg.d)
+I (..\Lib\inc\stm32f10x_wwdg.h)(0x49D9694A)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\system_stm32f10x.c)(0x4BB560C5)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\system_stm32f10x.o --omf_browse .\debug\obj\system_stm32f10x.crf --depend .\debug\obj\system_stm32f10x.d)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\User\main.c)(0x557EAFE8)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\main.o --omf_browse .\debug\obj\main.crf --depend .\debug\obj\main.d)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_pwr.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_exti.h)(0x49D9694A)
+I (..\User\epd.h)(0x557EAA68)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\Lib\minigui\inc\gui.h)(0x5444CE1B)
+I (..\Lib\minigui\inc\gui_base.h)(0x54446FB2)
+I (..\Lib\minigui\inc\gui_color.h)(0x5434B5F8)
+I (..\Lib\minigui\inc\lcd_l0.h)(0x557E9EE9)
+I (..\Lib\minigui\inc\lcd_conf.h)(0x54CF50AA)
+I (..\Lib\minigui\inc\gui_font.h)(0x550FD693)
+I (..\Lib\minigui\inc\gui_conf.h)(0x54DB3896)
+I (..\Lib\minigui\inc\gui_icon.h)(0x5441E232)
+I (..\Lib\minigui\inc\gui_text_bar.h)(0x54420960)
+I (..\Lib\minigui\inc\gui_base_triangle.h)(0x54DB2FC5)
+I (..\Lib\minigui\inc\gui_base_circle.h)(0x5444CA8F)
+I (..\Lib\minigui\inc\gui_widget_lcdseg.h)(0x5444BB9E)
+I (..\Lib\FatFS\ff.h)(0x545F2098)
+I (..\Lib\FatFS\integer.h)(0x54CC8113)
+I (..\Lib\FatFS\ffconf.h)(0x545F2098)
+I (..\User\sdcard.h)(0x4AC0A358)
+I (..\User\arm_cortex_m.h)(0x54D9CB96)
+F (..\User\stm32f10x_it.c)(0x557E9B74)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\stm32f10x_it.o --omf_browse .\debug\obj\stm32f10x_it.crf --depend .\debug\obj\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x4C4E5C5C)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_exti.h)(0x49D9694A)
+F (..\User\sdcard.c)(0x54F68490)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\sdcard.o --omf_browse .\debug\obj\sdcard.crf --depend .\debug\obj\sdcard.d)
+I (..\User\sdcard.h)(0x4AC0A358)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\User\arm_cortex_m.c)(0x54D9CB8F)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\arm_cortex_m.o --omf_browse .\debug\obj\arm_cortex_m.crf --depend .\debug\obj\arm_cortex_m.d)
+I (..\User\arm_cortex_m.h)(0x54D9CB96)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+F (..\Lib\minigui\minigui.lib)(0x557EACD5)()
+F (..\User\epd.lib)(0x557EAF07)()
+F (..\Lib\minigui\font\flash_font.c)(0x54CEEE05)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\flash_font.o --omf_browse .\debug\obj\flash_font.crf --depend .\debug\obj\flash_font.d)
+I (..\Lib\minigui\inc\gui_font.h)(0x550FD693)
+I (..\Lib\minigui\inc\lcd_l0.h)(0x557E9EE9)
+I (..\User\epd.h)(0x557EAA68)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\Lib\minigui\inc\gui.h)(0x5444CE1B)
+I (..\Lib\minigui\inc\gui_base.h)(0x54446FB2)
+I (..\Lib\minigui\inc\gui_color.h)(0x5434B5F8)
+I (..\Lib\minigui\inc\lcd_conf.h)(0x54CF50AA)
+I (..\Lib\minigui\inc\gui_conf.h)(0x54DB3896)
+I (..\Lib\minigui\inc\gui_icon.h)(0x5441E232)
+I (..\Lib\minigui\inc\gui_text_bar.h)(0x54420960)
+I (..\Lib\minigui\inc\gui_base_triangle.h)(0x54DB2FC5)
+I (..\Lib\minigui\inc\gui_base_circle.h)(0x5444CA8F)
+I (..\Lib\minigui\inc\gui_widget_lcdseg.h)(0x5444BB9E)
+F (..\Lib\minigui\font\F64.c)(0x54F40FDD)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\f64.o --omf_browse .\debug\obj\f64.crf --depend .\debug\obj\f64.d)
+I (..\Lib\minigui\inc\gui_font.h)(0x550FD693)
+I (..\Lib\minigui\inc\lcd_l0.h)(0x557E9EE9)
+I (..\User\epd.h)(0x557EAA68)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\Lib\minigui\inc\gui.h)(0x5444CE1B)
+I (..\Lib\minigui\inc\gui_base.h)(0x54446FB2)
+I (..\Lib\minigui\inc\gui_color.h)(0x5434B5F8)
+I (..\Lib\minigui\inc\lcd_conf.h)(0x54CF50AA)
+I (..\Lib\minigui\inc\gui_conf.h)(0x54DB3896)
+I (..\Lib\minigui\inc\gui_icon.h)(0x5441E232)
+I (..\Lib\minigui\inc\gui_text_bar.h)(0x54420960)
+I (..\Lib\minigui\inc\gui_base_triangle.h)(0x54DB2FC5)
+I (..\Lib\minigui\inc\gui_base_circle.h)(0x5444CA8F)
+I (..\Lib\minigui\inc\gui_widget_lcdseg.h)(0x5444BB9E)
+F (..\Lib\minigui\font\F32.c)(0x54DB385E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\f32.o --omf_browse .\debug\obj\f32.crf --depend .\debug\obj\f32.d)
+I (..\Lib\minigui\inc\gui_font.h)(0x550FD693)
+I (..\Lib\minigui\inc\lcd_l0.h)(0x557E9EE9)
+I (..\User\epd.h)(0x557EAA68)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\Lib\minigui\inc\gui.h)(0x5444CE1B)
+I (..\Lib\minigui\inc\gui_base.h)(0x54446FB2)
+I (..\Lib\minigui\inc\gui_color.h)(0x5434B5F8)
+I (..\Lib\minigui\inc\lcd_conf.h)(0x54CF50AA)
+I (..\Lib\minigui\inc\gui_conf.h)(0x54DB3896)
+I (..\Lib\minigui\inc\gui_icon.h)(0x5441E232)
+I (..\Lib\minigui\inc\gui_text_bar.h)(0x54420960)
+I (..\Lib\minigui\inc\gui_base_triangle.h)(0x54DB2FC5)
+I (..\Lib\minigui\inc\gui_base_circle.h)(0x5444CA8F)
+I (..\Lib\minigui\inc\gui_widget_lcdseg.h)(0x5444BB9E)
+F (..\Lib\minigui\font\F48.c)(0x54F3DE4B)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\f48.o --omf_browse .\debug\obj\f48.crf --depend .\debug\obj\f48.d)
+I (..\Lib\minigui\inc\gui_font.h)(0x550FD693)
+I (..\Lib\minigui\inc\lcd_l0.h)(0x557E9EE9)
+I (..\User\epd.h)(0x557EAA68)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\string.h)(0x54765570)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54765570)
+I (..\Lib\minigui\inc\gui.h)(0x5444CE1B)
+I (..\Lib\minigui\inc\gui_base.h)(0x54446FB2)
+I (..\Lib\minigui\inc\gui_color.h)(0x5434B5F8)
+I (..\Lib\minigui\inc\lcd_conf.h)(0x54CF50AA)
+I (..\Lib\minigui\inc\gui_conf.h)(0x54DB3896)
+I (..\Lib\minigui\inc\gui_icon.h)(0x5441E232)
+I (..\Lib\minigui\inc\gui_text_bar.h)(0x54420960)
+I (..\Lib\minigui\inc\gui_base_triangle.h)(0x54DB2FC5)
+I (..\Lib\minigui\inc\gui_base_circle.h)(0x5444CA8F)
+I (..\Lib\minigui\inc\gui_widget_lcdseg.h)(0x5444BB9E)
+F (..\Lib\FatFS\ff.c)(0x545F2098)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\ff.o --omf_browse .\debug\obj\ff.crf --depend .\debug\obj\ff.d)
+I (..\Lib\FatFS\ff.h)(0x545F2098)
+I (..\Lib\FatFS\integer.h)(0x54CC8113)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (..\Lib\FatFS\ffconf.h)(0x545F2098)
+I (..\Lib\FatFS\diskio.h)(0x4BE2665D)
+F (..\Lib\FatFS\diskio.c)(0x54CEF116)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I..\Lib\src -I..\Lib\inc -I..\User -I..\Lib\Start -I..\Lib -I..\Lib\minigui -I..\Lib\FatFS -I..\Lib\minigui\inc-I "E:\Dropbox\mbedtronics\RnD\E-INK Display\Firmware\Waveshare-e-ink-original\EPD V0.1.8\Project\RTE"-I C:\Includes\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Includes\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o .\debug\obj\diskio.o --omf_browse .\debug\obj\diskio.crf --depend .\debug\obj\diskio.d)
+I (..\Lib\FatFS\diskio.h)(0x4BE2665D)
+I (..\Lib\FatFS\integer.h)(0x54CC8113)
+I (..\Lib\stm32f10x.h)(0x4BE0E2AE)
+I (..\Lib\core_cm3.h)(0x49D96948)
+I (C:\Includes\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (..\Lib\system_stm32f10x.h)(0x49D96948)
+I (..\Lib\stm32f10x_conf.h)(0x54C61FE7)
+I (..\Lib\inc\stm32f10x_dma.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_sdio.h)(0x49D9694A)
+I (..\Lib\inc\stm32f10x_usart.h)(0x49D9694A)
+I (..\Lib\inc\misc.h)(0x49D9694A)
+I (..\User\sdcard.h)(0x4AC0A358)
