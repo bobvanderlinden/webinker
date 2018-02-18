@@ -36,7 +36,9 @@ Release/
 .project
 .cproject
 Waveshare-e-ink Debug.cfg
+Waveshare-e-ink Release.cfg
 Waveshare-e-ink.xml
+.code_review_properties
 
 # =========================
 # Operating System Files
