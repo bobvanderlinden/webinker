@@ -2,6 +2,7 @@ const HeadlessChrome = require("simple-headless-chrome");
 const im = require('imagemagick-stream');
 const Readable = require('stream').Readable;
 const express = require('express');
+const debug = require('debug')('webinker')
 
 const app = express()
 app.set('port', (process.env.PORT || 5000));
@@ -12,14 +13,14 @@ app.get('/', (req, res) => {
     res.statusMessage = 'No url specified'
     return res.end()
   }
-  console.log(`Request received for ${url}`)
+  debug(`Request received for ${url}`)
   res.status = 200;
   res.setHeader('Content-Type', 'image/png');
   const screenshot = getScreenshotStream(url);
   const grayScreenshot = convertToGrayscale(screenshot)
   const output = grayScreenshot.pipe(res)
   output.on('end', () => {
-    console.log(`Finished streaming ${url}`)
+    debug(`Finished streaming ${url}`)
   })
 })
 
@@ -34,12 +35,12 @@ function convertToGrayscale(stream) {
 }
 
 function getScreenshotStream(url) {
-  console.log(`Creating screenshot ${url}`);
+  debug(`Creating screenshot ${url}`);
   const stream = new Readable();
   stream._read = () => {};
   getScreenshot(url)
     .then(data => {
-      console.log(`Screenshot created ${url} (${data.length})`);
+      debug(`Screenshot created ${url} (${data.length})`);
       stream.push(data);
       stream.push(null);
     });
