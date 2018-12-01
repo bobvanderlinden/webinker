@@ -10,7 +10,8 @@ function tryParseInt(s) {
 
 const formats = {
   png: (stream) => stream,
-  gray: convertToGrayscale
+  gray: convertToGrayscale,
+  pnggray: convertToPngGray
 }
 
 const app = express()
@@ -50,6 +51,16 @@ function convertToGrayscale(stream) {
     .set('depth', '2')
     .set('alpha', 'off')
     .outputFormat('gray');
+  return stream.pipe(converter);
+}
+
+function convertToPngGray(stream) {
+  const converter = im()
+    .set('colorspace', 'gray')
+    .set('colors', '4')
+    .set('depth', '2')
+    .set('alpha', 'off')
+    .outputFormat('png');
   return stream.pipe(converter);
 }
 
